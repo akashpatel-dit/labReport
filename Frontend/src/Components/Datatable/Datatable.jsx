@@ -158,6 +158,106 @@ const Datatable = ({ data }) => {
             title: 118,
             callback: () => setLabnoQuery(118)
         },
+         {
+            id: "labno",
+            title: 204,
+            callback: () => setLabnoQuery(204)
+        },
+         {
+            id: "labno",
+            title: 205,
+            callback: () => setLabnoQuery(205)
+        },
+         {
+            id: "labno",
+            title: 206,
+            callback: () => setLabnoQuery(206)
+        },
+         {
+            id: "labno",
+            title: 207,
+            callback: () => setLabnoQuery(207)
+        },
+         {
+            id: "labno",
+            title: 208,
+            callback: () => setLabnoQuery(208)
+        },
+         {
+            id: "labno",
+            title: 209,
+            callback: () => setLabnoQuery(209)
+        },
+         {
+            id: "labno",
+            title: 210,
+            callback: () => setLabnoQuery(210)
+        },
+         {
+            id: "labno",
+            title: 216,
+            callback: () => setLabnoQuery(216)
+        },
+         {
+            id: "labno",
+            title: 218,
+            callback: () => setLabnoQuery(218)
+        },
+         {
+            id: "labno",
+            title: 303,
+            callback: () => setLabnoQuery(303)
+        },
+         {
+            id: "labno",
+            title: 304,
+            callback: () => setLabnoQuery(304)
+        },
+         {
+            id: "labno",
+            title: 306,
+            callback: () => setLabnoQuery(306)
+        },
+         {
+            id: "labno",
+            title: 307,
+            callback: () => setLabnoQuery(307)
+        },
+         {
+            id: "labno",
+            title: 308,
+            callback: () => setLabnoQuery(308)
+        },
+         {
+            id: "labno",
+            title: 312,
+            callback: () => setLabnoQuery(312)
+        },
+         {
+            id: "labno",
+            title: 313,
+            callback: () => setLabnoQuery(313)
+        },
+         {
+            id: "labno",
+            title: 314,
+            callback: () => setLabnoQuery(314)
+        },
+         {
+            id: "labno",
+            title: 316,
+            callback: () => setLabnoQuery(316)
+        },
+          {
+            id: "labno",
+            title: 317,
+            callback: () => setLabnoQuery(317)
+        },
+         {
+            id: "labno",
+            title: 321,
+            callback: () => setLabnoQuery(321)
+        },
         {
             id: "id",
             title: "Ascending",

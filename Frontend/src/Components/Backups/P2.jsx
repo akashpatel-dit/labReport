@@ -18,7 +18,7 @@ const facultyList = [
   { id: "6089", name: "Hitesh Makwana" },
   { id: "6094", name: "Pooja Chaudhry" },
   { id: "6095", name: "Dipika Damodar" },
-  { id: "6066", name: "Chintak Raval" }
+  { id: "6066", name: "Chintal Raval" }
 ];
 
 const Form = () => {
