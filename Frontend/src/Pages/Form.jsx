@@ -35,6 +35,11 @@ const Form = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
+    // Faculty ID must be a number
+    if (name === "personID" && formData.role === "Faculty" && value && isNaN(value)) {
+      return;
+    }
+
     if (name === "time") {
       setFormData({
         ...formData,
@@ -58,13 +63,6 @@ const Form = () => {
         personID: '',
         personName: '',
         roleName: ''
-      });
-    } else if (name === "personID" && formData.role === "Faculty") {
-      const selectedFaculty = facultyList.find(faculty => faculty.id === value);
-      setFormData({
-        ...formData,
-        personID: value,
-        personName: selectedFaculty ? selectedFaculty.name : ''
       });
     } else if (name === "problemName") {
       // Reset problem description when switching back to "Everything Fine"
@@ -273,10 +271,11 @@ const Form = () => {
         </label>
         <br />
         <input
-          type="text"
+          type={formData.role === "Faculty" ? "number" : "text"}
           name="personID"
           value={formData.personID}
           onChange={handleChange}
+          min="0"
         />
       </div>
 
@@ -291,7 +290,6 @@ const Form = () => {
           name="personName"
           value={formData.personName}
           onChange={handleChange}
-          readOnly={formData.role === "Faculty"}
         />
       </div>
     </div>
